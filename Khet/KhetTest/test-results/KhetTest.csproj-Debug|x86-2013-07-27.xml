@@ -1,0 +1,909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <UnitTestResult>
+      <TestDate>2013-07-27T16:31:12</TestDate>
+      <Passed>11</Passed>
+      <Errors>9</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+    <UnitTestResult>
+      <TestDate>2013-07-27T16:31:15</TestDate>
+      <Passed>11</Passed>
+      <Errors>9</Errors>
+      <Failures>0</Failures>
+      <Inconclusive>0</Inconclusive>
+      <NotRunnable>0</NotRunnable>
+      <Skipped>0</Skipped>
+      <Ignored>0</Ignored>
+      <Time />
+      <Message>One or more child tests had errors</Message>
+    </UnitTestResult>
+  </Results>
+  <Tests>
+    <TestRecord Name="Khet">
+      <Results>
+        <UnitTestResult>
+          <TestDate>2013-07-27T16:31:12</TestDate>
+          <Passed>11</Passed>
+          <Errors>9</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+        <UnitTestResult>
+          <TestDate>2013-07-27T16:31:15</TestDate>
+          <Passed>11</Passed>
+          <Errors>9</Errors>
+          <Failures>0</Failures>
+          <Inconclusive>0</Inconclusive>
+          <NotRunnable>0</NotRunnable>
+          <Skipped>0</Skipped>
+          <Ignored>0</Ignored>
+          <Time />
+          <Message>One or more child tests had errors</Message>
+        </UnitTestResult>
+      </Results>
+      <Tests>
+        <TestRecord Name="KhetTest">
+          <Results>
+            <UnitTestResult>
+              <TestDate>2013-07-27T16:31:12</TestDate>
+              <Passed>11</Passed>
+              <Errors>9</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+            <UnitTestResult>
+              <TestDate>2013-07-27T16:31:15</TestDate>
+              <Passed>11</Passed>
+              <Errors>9</Errors>
+              <Failures>0</Failures>
+              <Inconclusive>0</Inconclusive>
+              <NotRunnable>0</NotRunnable>
+              <Skipped>0</Skipped>
+              <Ignored>0</Ignored>
+              <Time />
+              <Message>One or more child tests had errors</Message>
+            </UnitTestResult>
+          </Results>
+          <Tests>
+            <TestRecord Name="TestBoardAndTileAdjacentTile">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestBoardAndTileAdjacentTile () [0x00020] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestBoardAndTileAdjacentTile () [0x00020] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:235 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestBoardAndTileAdjacentTileInvalid">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestBoardAndTileAdjacentTileInvalid () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:264 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestBoardAndTileAdjacentTileInvalid () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:264 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestBoardLoadLayoutFromFile">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestBoardLoadLayoutFromFile () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:204 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestBoardLoadLayoutFromFile () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:204 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestBoardLoadLayoutFromString">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestBoardLoadLayoutFromString () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:174 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestBoardLoadLayoutFromString () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:174 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestBoardLoadLayoutFromStringFiles">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IO.FileNotFoundException : Could not find file "/home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Layout_Classic.txt".</Message>
+                  <StackTrace>  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader:.ctor (string)
+  at System.IO.File.ReadAllText (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Khet.KhetTest.TestBoardLoadLayoutFromStringFiles () [0x0004e] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:190 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IO.FileNotFoundException : Could not find file "/home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Layout_Classic.txt".</Message>
+                  <StackTrace>  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, Boolean anonymous, FileOptions options) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.IO.FileStream..ctor (System.String path, FileMode mode, FileAccess access, FileShare share) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream:.ctor (string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare)
+  at System.IO.File.OpenRead (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize) [0x00000] in &lt;filename unknown&gt;:0 
+  at System.IO.StreamReader..ctor (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader:.ctor (string)
+  at System.IO.File.ReadAllText (System.String path) [0x00000] in &lt;filename unknown&gt;:0 
+  at Khet.KhetTest.TestBoardLoadLayoutFromStringFiles () [0x0004e] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:190 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestGamePieceCreateFromString">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.05ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.02ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestGamePieceCreateFromStringInvalid">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestGamePieceReturningColour">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestGamePieceReturningDescription">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestGamePieceReturningDescriptionColour">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestGamePieceReturningDescriptionDirection">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestGamePieceReturningDescriptionPieceType">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestGamePieceReturningDirection">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestGamePieceReturningInhabitedTile">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestObeliskReturningDescription">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestObeliskStack">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestObeliskStack () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:396 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestObeliskStack () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:396 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestObeliskStackedMove">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestObeliskStackedMove () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:312 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestObeliskStackedMove () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:312 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestObeliskUnstack">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestObeliskUnstack () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:366 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestObeliskUnstack () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:366 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestObeliskUnstackedMove">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestObeliskUnstackedMove () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:338 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>0</Passed>
+                  <Errors>1</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>System.IndexOutOfRangeException : Array index is out of range.</Message>
+                  <StackTrace>  at Khet.Board.LoadTileColourRestrictions () [0x0008c] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:84 
+  at Khet.Board.SetUpTiles () [0x00000] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:40 
+  at Khet.Board..ctor (Khet.KhetGame khetGame) [0x00046] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/Khet/src/Board.cs:33 
+  at Khet.KhetTest.TestObeliskUnstackedMove () [0x00006] in /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/KhetTest.cs:338 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (System.Reflection.MonoMethod,object,object[],System.Exception&amp;)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000] in &lt;filename unknown&gt;:0 </StackTrace>
+                  <ConsoleOutput />
+                  <ConsoleError>Loading tile colour restrictions from file failed: /home/brendan3/Dropbox/UNI/2013-S1/OOP/Distinction Program - Khet/Khet/KhetTest/bin/Debug/Resources/Tile_Colours.txt
+</ConsoleError>
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+            <TestRecord Name="TestTile">
+              <Results>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:12</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+                <UnitTestResult>
+                  <TestDate>2013-07-27T16:31:15</TestDate>
+                  <Passed>1</Passed>
+                  <Errors>0</Errors>
+                  <Failures>0</Failures>
+                  <Inconclusive>0</Inconclusive>
+                  <NotRunnable>0</NotRunnable>
+                  <Skipped>0</Skipped>
+                  <Ignored>0</Ignored>
+                  <Time />
+                  <Message>Test successful
+
+Execution time: 0.00ms</Message>
+                  <ConsoleOutput />
+                  <ConsoleError />
+                </UnitTestResult>
+              </Results>
+            </TestRecord>
+          </Tests>
+        </TestRecord>
+      </Tests>
+    </TestRecord>
+  </Tests>
+</TestRecord>

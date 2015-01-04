@@ -1,0 +1,52 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Unix|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Khet/src/Main.cs">
+    <Files>
+      <File FileName="KhetTest/KhetTest.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/Main.cs" Line="8" Column="2" />
+      <File FileName="Khet/src/KhetGame.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/Board.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/Tile.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/GamePiece.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/RotatableGamePiece.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/Player.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/LaserEmitter.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/Pharaoh.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/Obelisk.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/Djed.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/Pyramid.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/Controller.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/View.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/Widget.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/TileWidget.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/PieceWidget.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/PlayerAction.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/PlayerActionMove.cs" Line="1" Column="1" />
+      <File FileName="Khet/src/PlayerActionRotate.cs" Line="1" Column="1" />
+      <File FileName="Khet/bin/Debug/MyGame.exe" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Khet" expanded="True">
+            <Node name="References" expanded="True" selected="True" />
+            <Node name="src" expanded="True" />
+          </Node>
+          <Node name="KhetTest" expanded="True">
+            <Node name="References" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
