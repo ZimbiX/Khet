@@ -64,7 +64,7 @@ namespace Khet
         private char[,] LoadTileColourRestrictions()
         {
             string filename = "Tile_Colours.txt";
-            string path = _mainPath.ToString() + "Resources/" + filename;
+            string path = Path.Combine(_mainPath.ToString(), "Resources", filename);
             string fileContent = "";
             try {
                 fileContent = File.ReadAllText(path);
@@ -98,7 +98,7 @@ namespace Khet
         public bool LoadLayoutFromFile(BoardLayoutNames layoutName, string filename)
         {
             //Directory path = AppDomain.CurrentDomain.BaseDirectory;
-            string path = Path.Combine(_mainPath.ToString() + "Resources/", filename);
+            string path = Path.Combine(_mainPath.ToString(), "Resources", filename);
             string fileContent = "";
             try {
                 fileContent = File.ReadAllText(path);
