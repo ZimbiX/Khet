@@ -70,6 +70,7 @@ namespace Khet
                 fileContent = File.ReadAllText(path);
             } catch {
                 Console.Error.WriteLine("Loading tile colour restrictions from file failed: " + path);
+                throw;
             }
             // Split the file content into lines
             string[] tileColourRestrictionLines = fileContent.Split('\n');
