@@ -18,14 +18,10 @@ namespace Khet
 
         private Dictionary<BoardLayoutNames, string[,]> BoardLayouts { get; set; }
 
-        private DirectoryInfo _mainPath;
-
         private KhetGame _khetGame;
 
         public Board(KhetGame khetGame = null)
         {
-            //_mainPath = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory).Parent.Parent.Parent;
-            _mainPath = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory);
             BoardLayouts = new Dictionary<BoardLayoutNames, string[,]>();
             Tiles = new Tile[10,8]; // TODO: is this required?
             LaserEmitters = new List<LaserEmitter>();
@@ -63,17 +59,9 @@ namespace Khet
 
         private char[,] LoadTileColourRestrictions()
         {
-            string filename = "Tile_Colours.txt";
-            string path = Path.Combine(_mainPath.ToString(), "Resources", filename);
-            string fileContent = "";
-            try {
-                fileContent = File.ReadAllText(path);
-            } catch {
-                Console.Error.WriteLine("Loading tile colour restrictions from file failed: " + path);
-                throw;
-            }
-            // Split the file content into lines
-            string[] tileColourRestrictionLines = fileContent.Split('\n');
+			string path = Utils.ResourcePath("khet-layouts/Tile_Colours.txt");
+            // Read and split the file content into lines
+			string[] tileColourRestrictionLines = Utils.ReadFile(path).Split('\n');
             char[,] tileColourRestrictions = new char[10,8];
             // For each line
             for (int y = 0; y < tileColourRestrictionLines.Length; y++) {
@@ -98,16 +86,8 @@ namespace Khet
 
         public bool LoadLayoutFromFile(BoardLayoutNames layoutName, string filename)
         {
-            //Directory path = AppDomain.CurrentDomain.BaseDirectory;
-            string path = Path.Combine(_mainPath.ToString(), "Resources", filename);
-            string fileContent = "";
-            try {
-                fileContent = File.ReadAllText(path);
-            } catch {
-                Console.Error.WriteLine("Loading layout from file failed: " + path);
-                return false;
-            }
-            return LoadLayoutFromString(layoutName, fileContent);
+			string path = Utils.ResourcePath("khet-layouts/" + filename);
+			return LoadLayoutFromString(layoutName, Utils.ReadFile(path));
         }
 
         /// <summary>
