@@ -29,6 +29,7 @@ To compile the source code, you'll need:
 
 - Mono
 - MonoDevelop
+- NUnit
 - SwinGame
 
 ### Mono and MonoDevelop
@@ -36,6 +37,16 @@ To compile the source code, you'll need:
 For Linux/Mac, you'll need MonoDevelop. On Windows, you could use MonoDevelop, but it should still work in Visual Studio (though this is untested).
 
 To install both Mono and MonoDevelop, follow the instructions on the [MonoDevelop website](http://www.monodevelop.com/download/).
+
+### NUnit
+
+On Linux, use your package manager to install the appropriate nunit package, e.g.:
+
+	sudo apt-get install monodevelop-nunit
+
+On Windows, [download and install the MSI package](http://www.nunit.org/index.php?p=download).
+
+If you're running OS X, you're on your own here, I'm afraid =P
 
 ### SwinGame
 
@@ -48,6 +59,8 @@ On Linux, SwinGame needs to be installed. To do this, you need to compile it fro
 	sudo ./clean.sh; sudo ./build.sh -i
 
 to build and install the SwinGame SDK onto your machine.
+
+I'm not sure whether something similar needs to be done on OS X.
 
 ## Design
 
