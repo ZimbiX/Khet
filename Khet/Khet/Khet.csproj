@@ -89,6 +89,7 @@
     <Compile Include="src\PlayerActionRotate.cs" />
     <Compile Include="LaserEmitterWidget.cs" />
     <Compile Include="RotateWidget.cs" />
+    <Compile Include="src\Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="SwinGame">
