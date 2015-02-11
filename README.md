@@ -27,14 +27,17 @@ I developed this game with MonoDevelop on Ubuntu, using Swinburne's [SwinGame SD
 
 To compile the source code, you'll need:
 
-- Mono
-- MonoDevelop
-- NUnit
+- Mono / .NET 4
 - SwinGame
+
+And for development you'll also need:
+
+- MonoDevelop / Visual Studio
+- NUnit
 
 ### Mono and MonoDevelop
 
-For Linux/Mac, you'll need MonoDevelop. On Windows, you could use MonoDevelop, but it should still work in Visual Studio (though this is untested).
+For Linux/Mac, you'll need MonoDevelop. On Windows, you could use MonoDevelop, but it should still work in Visual Studio.
 
 To install both Mono and MonoDevelop, follow the instructions on the [MonoDevelop website](http://www.monodevelop.com/download/).
 
@@ -48,9 +51,11 @@ On Windows, [download and install the MSI package](http://www.nunit.org/index.ph
 
 If you're running OS X, you're on your own here, I'm afraid =P
 
+Always make sure the unit tests pass before committing to Git.
+
 ### SwinGame
 
-On Linux, SwinGame needs to be installed. To do this, you need to compile it from source, which [requires some prerequisites to be installed](http://www.swingame.com/wiki/index.php?title=SwinGame_3_Beta#Notes_for_Linux). Use your package manager to install them, e.g.:
+Unlike with Windows, SwinGame needs to be installed on Linux. To do this, you need to compile it from source, which [requires some prerequisites to be installed](http://www.swingame.com/wiki/index.php?title=SwinGame_3_Beta#Notes_for_Linux). Use your package manager to install them, e.g.:
 
 	sudo apt-get install fpc libsdl1.2-dev libsdl-gfx1.2-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsdl-net1.2-dev
 
@@ -62,8 +67,31 @@ to build and install the SwinGame SDK onto your machine.
 
 I'm not sure whether something similar needs to be done on OS X.
 
+### Running / debugging
+
+Once you have all the prerequisites installed, open `Khet.sln` in your IDE.
+
+At the top of the window, make sure the Solution Configuration is set to the build configuration that matches your platform. Click Start to build and run the game.
+
+## Building from source
+
+If you just want to build the binary from source without setting up an IDE, you'll still need to install the compilation prerequisites mentioned at the top of the Development section.
+
+On Windows, be sure to [add the path to your .NET 4.0 framework installation on your machine to your PATH environment variable](http://stackoverflow.com/a/12608705/1239774).
+
+Open a terminal window and `cd` into the `Khet` directory where `Khet.csproj` is located. On Windows, now run:
+
+    msbuild
+    msbuild /target:CopyFiles
+
+On Linux/Mac:
+
+    xbuild && xbuild /target:CopyFiles
+
+If that worked, you should now be able to run the game executable in the `bin` directory.
+
 ## Design
 
-Here's my UML diagram for the final submitted version ([also available on Lucidchart](https://www.lucidchart.com/documents/view/41d1-0a0c-516f55df-9abd-01730a0041d5)):
+Here's my UML diagram for the version I submitted with my portfolio ([also available on Lucidchart](https://www.lucidchart.com/documents/view/41d1-0a0c-516f55df-9abd-01730a0041d5)):
 
 ![Khet UML diagram](Khet-UML-Diagram-v1.1.png)
