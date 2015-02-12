@@ -94,4 +94,4 @@ If that worked, you should now be able to run the game executable in the `bin` d
 
 Here's my UML diagram for the version I submitted with my portfolio ([also available on Lucidchart](https://www.lucidchart.com/documents/view/41d1-0a0c-516f55df-9abd-01730a0041d5)):
 
-![Khet UML diagram](Khet-UML-Diagram-v1.1.png)
+![Khet UML diagram](https://raw.githubusercontent.com/ZimbiX/Khet/master/Khet-UML-Diagram-v1.1.png)
