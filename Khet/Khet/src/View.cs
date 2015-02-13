@@ -139,15 +139,17 @@ namespace Khet
                     Text.DrawText(_khetGame.CurrentPlayer.Colour.ToString(), textColour,
                                   KhetGame.Point2D(135, 20));
                     // Display key info
-                    string keyInfo = "Rotate selected piece:\n" +
-                        "    Z: Anti-clockwise\n" +
-                        "    X: Clockwise\n" +
-                        "Unstack selected obelisk:\n" +
-                        "    Ctrl + click destination tile\n" +
-                        "Start a new game:\n" +
-                        "    1: Classic\n" +
-                        "    2: Imhotep\n" +
-                        "    3: Dynasty";
+                    string keyInfo = String.Join(Environment.NewLine, new string[] {
+                        "Rotate selected piece:",
+                        "    Z: Anti-clockwise",
+                        "    X: Clockwise",
+                        "Unstack selected obelisk:",
+                        "    Ctrl, click destination tile",
+                        "Start a new game:",
+                        "    1: Classic",
+                        "    2: Imhotep",
+                        "    3: Dynasty"
+                    });
                     //Text.DrawText(keyInfo, Color.Black, KhetGame.Point2D(20, AllImages["Tile"].Height*8 + 85));
                     Text.DrawTextLines(keyInfo, Color.Black, Color.Transparent, Text.FontNamed("arial"),
                                        FontAlignment.AlignLeft, 30, AllImages["Tile"].Height*8 + 75, 1000, 500);
