@@ -23,6 +23,8 @@ This overview doesn't quite do it justice; please see the original, comprehensiv
 
 To run the game, it's simply a matter of downloading the latest release, extracting it, then running the executable =)
 
+[Download now](https://github.com/ZimbiX/Khet/releases/latest)
+
 ## Development setup
 
 I developed this game with MonoDevelop on Ubuntu, using Swinburne's [SwinGame SDK](http://www.swingame.com/).
