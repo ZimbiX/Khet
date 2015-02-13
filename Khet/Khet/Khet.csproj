@@ -128,4 +128,7 @@
     <Copy SourceFiles="@(WinLibraryFiles)" DestinationFolder="$(OutDir)" />
     <Copy SourceFiles="@(MyResources)" DestinationFiles="@(MyResources->'$(OutputPath)\Resources\%(RecursiveDir)%(Filename)%(Extension)')" />
   </Target>
+  <PropertyGroup>
+    <PostBuildEvent>msbuild "$(ProjectDir)$(ProjectName).csproj" /target:CopyFiles &gt; "$(ProjectDir)copyfiles.log"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
