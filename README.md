@@ -1,6 +1,6 @@
 # Khet
 
-I produced this game as my distinction project in Object-Oriented Programming at Swinburne uni in the first semester of 2013. It's an implementation of a [board game called Khet](http://www.khet.com/) (its first version) in C#. Khet is most easily described as being 'laser chess'.
+I produced this game as my distinction project in the Object-Oriented Programming unit at Swinburne uni in the first semester of 2013. It's an implementation of a [board game called Khet](http://www.khet.com/) (its first version) in C#. Khet is most easily described as being 'laser chess'.
 
 ## Gameplay
 
@@ -17,9 +17,11 @@ Obelisks are shield pieces and may be stacked or unstacked as your turn. Stacks 
 
 This overview doesn't quite do it justice; please see the original, comprehensive but succinct, [rule booklet](Khet_Rules_final.pdf).
 
-## Game installation
+## Download and play the game
 
-TODO
+![Game screenshot](khet-screenshot.png)
+
+To run the game, it's simply a matter of downloading the latest release, extracting it, then running the executable =)
 
 ## Development setup
 
@@ -32,14 +34,16 @@ To compile the source code, you'll need:
 
 And for development you'll also need:
 
-- MonoDevelop / Visual Studio
+- Xamarin Studio (MonoDevelop) / Visual Studio
 - NUnit
 
 ### Mono and MonoDevelop
 
-For Linux/Mac, you'll need MonoDevelop. On Windows, you could use MonoDevelop, but it should still work in Visual Studio.
+For Linux/Mac, you'll need MonoDevelop. On Windows, you can use either Xamarin Studio (MonoDevelop) or Visual Studio.
 
-To install both Mono and MonoDevelop, follow the instructions on the [MonoDevelop website](http://www.monodevelop.com/download/).
+To build and run C# binaries, Windows will use the .NET framework; Mono does this on Linux and Mac, and should be automatically installed by MonoDevelop as required.
+
+To install MonoDevelop on Linux/Mac/Windows, follow the instructions on the [MonoDevelop website](http://www.monodevelop.com/download/).
 
 ### NUnit
 
